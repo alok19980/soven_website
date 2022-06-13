@@ -37,75 +37,32 @@
               <li class="dropdown nav-item">
                 <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Services</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="contact.html">Contact<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="pricing.html">Pricing<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                    <li><a class="dropdown-item" href="blog.html">Blog 01<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="blog-02.html">Blog 02<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="blog-detail.html">Blog Detail<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="elements.html">Elements<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="faq.html">Faq<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="coming-soon.html">Coming Soon<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="error-404.html">404 Error<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Web Desinging & Development<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Graphic Design<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Android App Development</a></li>
+                    <li><a class="dropdown-item" href="#">iOS App Development<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Social Media Marketing<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Search Engine Optimization<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Blockchain Development<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Artificial Intelligence Services<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="#">Robotic Process Automation<i class="fas fa-arrow-right"></i></a></li>
+                    
                   </ul>
               </li>
               <li class="nav-item">
-                <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">About Us</a>
+                <a href="#" class="nav-link" >About Us</a>
                   
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link" data-bs-toggle="dropdown">Contact Us</a>
+                <a href="#" class="nav-link">Contact Us</a>
                 
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link" >Portfolio</a>
               </li>
-               <li class="dropdown nav-item mega-menu">
-                <a href="#" class="nav-link" data-bs-toggle="dropdown">Our Products</a>
-                <ul class="dropdown-menu megamenu">
-                  <li>
-                    <div class="row">
-                      <div class="col-sm-6 col-lg-3">
-                        <h6 class="mb-3 nav-title">Menu Title </h6>
-                        <ul class="list-unstyled mt-lg-3">
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                        </ul>
-                      </div>
-                      <div class="col-sm-6 col-lg-3">
-                        <h6 class="mb-3 nav-title">Menu Title</h6>
-                        <ul class="list-unstyled mt-lg-3">
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                        </ul>
-                      </div>
-                      <div class="col-sm-6 col-lg-3">
-                        <h6 class="mb-3 nav-title">Menu Title</h6>
-                        <ul class="list-unstyled mt-lg-3">
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                        </ul>
-                      </div>
-                      <div class="col-sm-6 col-lg-3">
-                        <h6 class="mb-3 nav-title">Menu Title</h6>
-                        <ul class="list-unstyled mt-lg-3">
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                          <li><a href="#">Menu item </a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+               <li class="nav-item ">
+                <a href="#" class="nav-link" >Our Products</a>
+                
               </li>
             </ul>
           </div>

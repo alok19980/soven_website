@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from themes.potenzaglobalsolutions.com/html/hi-soft/coming-soon.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 08:57:56 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="HTML5 Template" />
     <meta name="description" content="Hi-soft - IT Solutions and Services Company HTML5 Template" />
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Hi-soft - IT Solutions and Services Company HTML5 Template</title>
+    <title>Soven Developer - IT Solutions and Services Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -37,8 +36,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 text-center">
-            <a class="navbar-brand d-inline-block" href="index.html">
-              <img class="img-fluid" src="images/logo-light.svg" alt="logo">
+            <a class="navbar-brand d-inline-block" href="index.php">
+              <img class="img-fluid" src="images/logo.png" alt="logo">
             </a>
           </div>
         </div>
@@ -74,7 +73,7 @@
             <p class="mb-0 mt-4 font-italic text-white">*We are currently working on a website and won't take long.</p>
           </div>
           <div class="col-md-6 align-self-center">
-            <h2 class="mb-0 text-white">Launching</h2>
+            <h2 class="mb-0 text-white">Loading website components</h2>
             <h1 class="text-white">Very Soon</h1>
             <p class="text-white">Provide Your Email Address & We Will Notify You When Site Is Ready:</p>
             <div class="mt-4">

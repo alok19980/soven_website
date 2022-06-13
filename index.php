@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="Hi-soft - IT Solutions and Services Company HTML5 Template" />
+    <meta name="description" content="Soven Developer" />
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Soven Developer - IT Solutions and Services Company</title>
@@ -216,12 +216,12 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 order-lg-1 order-1">
             <div class="case-study">
-              <div class="case-study-img case-study-lg" style="background-image: url('images/project/02.jpg');">
+              <div class="case-study-img case-study-lg" style="background-image: url('images/project/venzi.webp');">
               </div>
               <div class="case-study-info">
-                <a class="case-study-title fw-bold" href="#">Gozzby</a>
-                <span class="case-study-services text-primary">Music</span>
-                <p>If success is a process with a number of defined steps, then it is just like any other process.</p>
+                <a class="case-study-title fw-bold" href="#">Venzi</a>
+                <span class="case-study-services text-primary">Entertainment</span>
+                <p>Venzi connects you to your local house party scene. Whatever your mood - dance all night or kickback and socialize - tickets to a variety of events are available in your city on the app.</p>
                 <a href="#" class="icon-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
               </div>
             </div>
@@ -230,24 +230,24 @@
             <div class="row">
               <div class="col-sm-6 col-lg-12">
                 <div class="case-study">
-                  <div class="case-study-img" style="background-image: url('images/project/04.jpg');">
+                  <div class="case-study-img" style="background-image: url('images/project/ticktick.webp');">
                   </div>
                   <div class="case-study-info">
-                    <a class="case-study-title fw-bold" href="#">Educatgenix</a>
-                    <span class="case-study-services text-primary">Education</span>
-                    <p>We all carry a lot of baggage, thanks to our upbringing...</p>
+                    <a class="case-study-title fw-bold" href="#">TickTick</a>
+                    <span class="case-study-services text-primary">Tools</span>
+                    <p>To-do list & Tasks</p>
                     <a href="#" class="icon-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
                   </div>
                 </div>
               </div>
               <div class="col-sm-6 col-lg-12">
                 <div class="case-study">
-                  <div class="case-study-img" style="background-image: url('images/project/06.jpg');">
+                  <div class="case-study-img" style="background-image: url('images/project/aj.webp');">
                   </div>
                   <div class="case-study-info">
-                    <a class="case-study-title" href="#">Petfluent</a>
-                    <span class="case-study-services text-primary">Pet Care</span>
-                    <p>You will drift aimlessly until you arrive back at the original dock</p>
+                    <a class="case-study-title" href="#">AJ</a>
+                    <span class="case-study-services text-primary">Blogging</span>
+                    <p>AJ Blog is the highest paying article website. All you have to do is write read you'll get paid. You can write about what you like, what you're passionate about, you can write about anything as long as it adds value to the community. </p>
                     <a href="#" class="icon-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
                   </div>
                 </div>
@@ -259,9 +259,9 @@
               <div class="case-study-img case-study-lg" style="background-image: url('images/project/05.jpg');">
               </div>
               <div class="case-study-info">
-                <a class="case-study-title fw-bold" href="#">Financeoont</a>
-                <span class="case-study-services text-primary">Finance</span>
-                <p>It is truly amazing the damage that we, as parents, can inflict on our children...</p>
+                <a class="case-study-title fw-bold" href="#">BrandBazzar</a>
+                <span class="case-study-services text-primary">Ecommerce</span>
+                <p>BrandBazzar B2B Ecommerce App . Provides all types of custom or branded clothes at one stop . We Delivery all over india with standard shipping charges .</p>
                 <a href="#" class="icon-btn"><i class="fas fa-long-arrow-alt-right"></i></a>
               </div>
             </div>
@@ -828,7 +828,7 @@
                 </div>
                 <div class="blog-post-details">
                   <h5 class="blog-post-title">
-                    <a href="blog-detail.html">From a small startup to a leading global agency in 10 Years</a>
+                    <a href="#">From a small startup to a leading global agency in 10 Years</a>
                   </h5>
                   <p class="mb-0">We also know those epic stories, those modern-day legends surrounding the early failures of such supremely successful folks as Michael Jordan and Bill Gates.</p>
                 </div>
@@ -851,7 +851,7 @@
                 </div>
                 <div class="blog-post-details">
                   <h5 class="blog-post-title">
-                    <a href="blog-detail.html">How google’s BERT algorithm affects your website traffic</a>
+                    <a href="#">How google’s BERT algorithm affects your website traffic</a>
                   </h5>
                 </div>
               </div>
@@ -871,7 +871,7 @@
                 </div>
                 <div class="blog-post-details">
                   <h5 class="blog-post-title">
-                    <a href="blog-detail.html">Five reasons why you must create a website for your company</a>
+                    <a href="#">Five reasons why you must create a website for your company</a>
                   </h5>
                 </div>
               </div>
@@ -911,16 +911,13 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-sm-3">
-              <a href="index.html"><img class="img-fluid" src="images/logo.svg" alt="logo"></a>
+              <a href="index.html"><img class="img-fluid" src="images/logo.png" alt="Soven Developer logo"></a>
             </div>
             <div class="col-sm-9 text-sm-end mt-4 mt-sm-0">
               <ul class="list-unstyled mb-0 social-icon">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
-                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                <li><a href="https://www.facebook.com/sovendeveloper/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/developersoven"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/soven-developer/"><i class="fab fa-linkedin-in"></i></a></li>
               </ul>
             </div>
           </div>
@@ -933,17 +930,17 @@
             <h5 class="text-primary mb-2 mb-sm-4">IT Services</h5>
             <div class="footer-link">
               <ul class="list-unstyled mb-0">
-                <li><a href="#">Data Synchronization</a></li>
-                <li><a href="#">Content Management</a></li>
-                <li><a href="#">Content Delivery</a></li>
-                <li><a href="#">Transaction Processing</a></li>
-                <li><a href="#">Process Automation</a></li>
+                <li><a href="#">Web Designing & Development</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Android App Development</a></li>
+                <li><a href="#">iOS App Development</a></li>
+                <li><a href="#">Social Media Marketing</a></li>
               </ul>
               <ul class="list-unstyled mb-0">
-                <li><a href="#">Event Processing</a></li>
-                <li><a href="#">Information Security</a></li>
-                <li><a href="#">Mobile Platforms</a></li>
-                <li><a href="#">Communications</a></li>
+                <li><a href="#">Search Engine Optimization</a></li>
+                <li><a href="#">Blockchain Development</a></li>
+                <li><a href="#">Artificial Intelligence Services</a></li>
+                <li><a href="#">Robotic Process Automation</a></li>
               </ul>
             </div>
           </div>
@@ -953,9 +950,9 @@
               <ul class="list-unstyled mb-0">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Leadership Team</a></li>
-                <li><a href="#">IT Blog</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Case Studies</a></li>
-                <li><a href="#">Locations</a></li>
+                <li><a href="#">Products</a></li>
                 <li><a href="#">Careers <span class="badge bg-success ms-2">We're hiring</span></a></li>
               </ul>
             </div>
@@ -967,7 +964,6 @@
                 <li><a href="#">Forum Support</a></li>
                 <li><a href="#">Help & FAQs</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Pricing And Plans</a></li>
                 <li><a href="#">Cookies Policy</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
@@ -975,19 +971,19 @@
           </div>
           <div class="col-sm-6 col-lg-4">
             <div class="footer-contact-info">
-              <h5 class="text-primary mb-3">Contact hi-Soft</h5>
+              <h5 class="text-primary mb-3">Contact Soven Developer</h5>
               <div class="contact-address">
                 <div class="contact-item">
                   <label>Address:</label>
-                  <p>6580 Allison Turnpike Creminfort, AL 32808</p>
+                  <p>2055 Limestone Rd STE 200-C, Wilmington, DE 19808, United States</p>
                 </div>
                 <div class="contact-item">
                   <label>Phone:</label>
-                  <h4 class="mb-0 fw-bold"><a href="#">+(704) 279-1249</a></h4>
+                  <h4 class="mb-0 fw-bold"><a href="#">+(44) 7596087222</a></h4>
                 </div>
                 <div class="contact-item">
                   <label>Email:</label>
-                  <a class="text-dark" href="#">letstalk@hisoft.com</a>
+                  <a class="text-dark" href="#">admin@sovendeveloper.com</a>
                 </div>
               </div>
             </div>
@@ -998,7 +994,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <p class="mb-0">©Copyright 2020 <a href="index.html">hi-soft</a> All Rights Reserved</p>
+              <p class="mb-0">©Copyright 2022 <a href="index.php">Soven Developer</a> All Rights Reserved</p>
             </div>
           </div>
         </div>
@@ -1034,5 +1030,5 @@
 
   </body>
 
-<!-- Mirrored from themes.potenzaglobalsolutions.com/html/hi-soft/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 08:55:59 GMT -->
+
 </html>
