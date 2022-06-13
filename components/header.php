@@ -37,8 +37,8 @@
               <li class="dropdown nav-item">
                 <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Services</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Web Desinging & Development<i class="fas fa-arrow-right"></i></a></li>
-                    <li><a class="dropdown-item" href="#">Graphic Design<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="web-development.php">Web Desinging & Development<i class="fas fa-arrow-right"></i></a></li>
+                    <li><a class="dropdown-item" href="graphic-design.php">Graphic Design<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="#">Android App Development</a></li>
                     <li><a class="dropdown-item" href="#">iOS App Development<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="#">Social Media Marketing<i class="fas fa-arrow-right"></i></a></li>

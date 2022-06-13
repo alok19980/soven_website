@@ -22,7 +22,7 @@
             <h5 class="text-primary mb-2 mb-sm-4">IT Services</h5>
             <div class="footer-link">
               <ul class="list-unstyled mb-0">
-                <li><a href="#">Web Designing & Development</a></li>
+                <li><a href="web-development.php">Web Designing & Development</a></li>
                 <li><a href="#">Graphic Design</a></li>
                 <li><a href="#">Android App Development</a></li>
                 <li><a href="#">iOS App Development</a></li>
