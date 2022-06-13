@@ -43,7 +43,7 @@
                 <li><a href="about.php">About</a></li>
                 <li><a href="#">Leadership Team</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Case Studies</a></li>
+                <li><a href="portfolio.php">Case Studies</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Careers <span class="badge bg-success ms-2">We're hiring</span></a></li>
               </ul>

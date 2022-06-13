@@ -58,7 +58,7 @@
                 
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link" >Portfolio</a>
+                <a href="portfolio.php" class="nav-link" >Portfolio</a>
               </li>
                <li class="nav-item ">
                 <a href="#" class="nav-link" >Our Products</a>
