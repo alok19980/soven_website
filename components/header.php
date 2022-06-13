@@ -69,7 +69,7 @@
           <div class="d-none d-sm-flex ms-auto me-5 me-lg-0 pe-4 pe-lg-0">
             <ul class="nav ms-1 ms-lg-2 align-self-center">
               <li class="contact-number nav-item pe-4 ">
-                <a class="fw-bold" href="#"><i class="fab fa-whatsapp pe-2"></i>+(44) 7596087222</a>
+                <a class="fw-bold" href="https://wa.me/447596087222"><i class="fab fa-whatsapp pe-2"></i>+(44) 7596087222</a>
               </li>
               
             </ul>
