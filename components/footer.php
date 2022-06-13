@@ -40,7 +40,7 @@
             <h5 class="text-primary mb-2 mb-sm-4">Company</h5>
             <div class="footer-link">
               <ul class="list-unstyled mb-0">
-                <li><a href="#">About</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="#">Leadership Team</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Case Studies</a></li>
@@ -55,7 +55,7 @@
               <ul class="list-unstyled mb-0">
                 <li><a href="#">Forum Support</a></li>
                 <li><a href="#">Help & FAQs</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
                 <li><a href="#">Cookies Policy</a></li>
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
