@@ -31,7 +31,7 @@
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">Home</a>
+                <a class="nav-link" href="index.php" role="button" aria-expanded="false">Home</a>
                
               </li>
               <li class="dropdown nav-item">
