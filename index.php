@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="HTML5 Template" />
+    <meta name="keywords" content="Soven Developer" />
     <meta name="description" content="Soven Developer" />
-    <meta name="author" content="potenzaglobalsolutions.com" />
+    <meta name="author" content="sovendeveloper.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Soven Developer - IT Solutions and Services Company</title>
 
