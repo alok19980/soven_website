@@ -45,7 +45,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-8">
             <div class="header-inner-title text-center position-relative">
-              <h1 class="text-white fw-normal">Graphic Designing</h1>
+              <h1 class="text-white fw-normal">Search Engine Optimization</h1>
               <p class="text-white mb-0">The best way is to develop and follow a plan. Start with your goals in mind and then work backwards to develop the plan.</p>
             </div>
           </div>
@@ -62,42 +62,31 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="service-details">
-              <h4 class="fw-bold">Graphic Design</h4>
-              <p class="mb-4 mb-md-5">Websites, businesses and brands are all much more than just words and products –
-they’re also images and art. Graphic design is an integral part of any business and
-that’s as true for your company’s image and your marketing. Success online is
-multifaceted in the modern age. While sites rich in text can help you be found within
-search results, attracting visitors and converting sales is often influenced by the audio-
-visual impact. Colorful, high-resolution images, engaging videos and illustrative graphics
-can help potential buyers better understand your products and services and help them
-see – literally – the benefits they offer. Our team has a wealth of experience shooting
-quality live-action and still footage. We also understand how to optimize load times and
-meta information to help it be found online.</p>
-              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/graphic-design.jpeg" alt="">
-              <h5>Creation of Best Design</h5>
-              <p class="mb-4 mb-md-5">Creating beautiful design is about more than inspiration or a great idea, it’s about
-understanding the fundamentals of the subject. Although it’s possible to spend years
-studying the nuances of design and the many varying takes on how to be successful at
-it, there are a handful of, or two, basic elements that every designer should know before
-beginning any project. Even amateurs in the field who maintain personal blogs or only
-make a hobby of it can utilize the following ten tips to create professional looking pieces,
-and anyone who intends to earn money from the endeavor must know them. Rules
-were made to be broken, of course, but you have to know what they are first.
-The first and most basic element of design is that of the line.
-
-Color is one of the most obvious elements of design, for both the user and the
-designer.
-Shapes, geometric or organic, add interest. Shapes are defined by boundaries,
-such as a line or color, and they are often used to emphasize a portion of the
-page.
-Negative space is one of the most commonly underutilized and misunderstood aspects of designing for the page.</p>
-              
-              
-   
-              
-             
-               
-            
+              <h4 class="fw-bold">Search Engine Optimization</h4>
+              <p class="mb-4 mb-md-5">Most internet users begin their session by searching for something – that something is a
+need. People use the internet to fulfill their need for information, whether it’s settling a
+bet on who was the 14th president (Franklin Pierce, by the way) or finding a local
+restaurant, perfect piece of clothing, or the ideal contractor for a home remodel. Search
+engine optimization (SEO) is the process of helping your customers connect with your
+business online. Our team uses modern SEO services, backed by the best digital
+practices, to increase your traffic &amp; rankings for vetted keywords and long-tail phrases
+that drive business to your site.</p>
+              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/seo.jpeg" alt="">
+              <h5>Why to Do SEO</h5>
+              <p class="mb-4 mb-md-5">Do you have a great website? But if no one comes to it... what&#39;s the point?
+We do not say that making a website is easy, but it&#39;s at least easier than making it
+likable by Search Engines, Robots and Crawlers. Search Engine Optimization simply
+abbreviated as SEO is the most important process after getting your website online.
+Most of the small business owners ignore this, or are often poorly guided by web
+companies that can only make a website. We, at Dharmishi Technologies believe in
+giving you something good, and then keep working on it to make it better.
+<ul>
+    <li>Off-Page Optimization</li>
+    <li>On-Page Optimization</li>
+    <li>Social Media Marketing</li>
+    <li>Content Writing Services</li>
+</ul>
+</p>            
               <h4 class="fw-bold mb-4">Please contact us via below from for more info</h4>
               <form class="row">
                 <div class="col-md-4 mb-4">

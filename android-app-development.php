@@ -45,7 +45,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-8">
             <div class="header-inner-title text-center position-relative">
-              <h1 class="text-white fw-normal">Graphic Designing</h1>
+              <h1 class="text-white fw-normal">Android App Development</h1>
               <p class="text-white mb-0">The best way is to develop and follow a plan. Start with your goals in mind and then work backwards to develop the plan.</p>
             </div>
           </div>
@@ -62,35 +62,28 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="service-details">
-              <h4 class="fw-bold">Graphic Design</h4>
-              <p class="mb-4 mb-md-5">Websites, businesses and brands are all much more than just words and products –
-they’re also images and art. Graphic design is an integral part of any business and
-that’s as true for your company’s image and your marketing. Success online is
-multifaceted in the modern age. While sites rich in text can help you be found within
-search results, attracting visitors and converting sales is often influenced by the audio-
-visual impact. Colorful, high-resolution images, engaging videos and illustrative graphics
-can help potential buyers better understand your products and services and help them
-see – literally – the benefits they offer. Our team has a wealth of experience shooting
-quality live-action and still footage. We also understand how to optimize load times and
-meta information to help it be found online.</p>
-              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/graphic-design.jpeg" alt="">
-              <h5>Creation of Best Design</h5>
-              <p class="mb-4 mb-md-5">Creating beautiful design is about more than inspiration or a great idea, it’s about
-understanding the fundamentals of the subject. Although it’s possible to spend years
-studying the nuances of design and the many varying takes on how to be successful at
-it, there are a handful of, or two, basic elements that every designer should know before
-beginning any project. Even amateurs in the field who maintain personal blogs or only
-make a hobby of it can utilize the following ten tips to create professional looking pieces,
-and anyone who intends to earn money from the endeavor must know them. Rules
-were made to be broken, of course, but you have to know what they are first.
-The first and most basic element of design is that of the line.
-
-Color is one of the most obvious elements of design, for both the user and the
-designer.
-Shapes, geometric or organic, add interest. Shapes are defined by boundaries,
-such as a line or color, and they are often used to emphasize a portion of the
-page.
-Negative space is one of the most commonly underutilized and misunderstood aspects of designing for the page.</p>
+              <h4 class="fw-bold">Android App Development</h4>
+              <p class="mb-4 mb-md-5">Android’s scalability has generated definitive benefits for many organizations with a
+better return on investment and improved reach. As an Android app development
+company, Rishabh Software offers end-to-end mobility solutions to suit your business
+needs. Our team provides mobile app design and development services to develop
+custom intuitive applications. We encompass the complete range of devices, including
+smartphones, watches, tablets, and Android TVs.</p>
+              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/android-app-development.jpeg" alt="">
+              <h5>Why Choose Us</h5>
+              <p class="mb-4 mb-md-5">Our Android application development services include user interface design, defining
+the technology stack, front-end development, third-party services integration, and
+support. We use proven technologies and approaches that allow us to extend and scale
+your applications quickly. With our exclusive testing practice, you can count on fully
+functional bug-proof apps that get periodically updated to the latest version.
+Get experienced teams and achieve superior time to market &amp; time to service
+record
+Scalable infrastructure support for your growth needs
+100% clean track record in IPR and source code protection
+Cost leadership &amp; superior ROI for your IT initiatives
+Feature Development Excellence
+Flexible engagement models – fixed cost, full-time or part-time hiring, developer
+by hour</p>
               
               
    

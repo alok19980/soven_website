@@ -45,7 +45,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-8">
             <div class="header-inner-title text-center position-relative">
-              <h1 class="text-white fw-normal">Graphic Designing</h1>
+              <h1 class="text-white fw-normal">Blockchain Development</h1>
               <p class="text-white mb-0">The best way is to develop and follow a plan. Start with your goals in mind and then work backwards to develop the plan.</p>
             </div>
           </div>
@@ -62,42 +62,22 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="service-details">
-              <h4 class="fw-bold">Graphic Design</h4>
-              <p class="mb-4 mb-md-5">Websites, businesses and brands are all much more than just words and products –
-they’re also images and art. Graphic design is an integral part of any business and
-that’s as true for your company’s image and your marketing. Success online is
-multifaceted in the modern age. While sites rich in text can help you be found within
-search results, attracting visitors and converting sales is often influenced by the audio-
-visual impact. Colorful, high-resolution images, engaging videos and illustrative graphics
-can help potential buyers better understand your products and services and help them
-see – literally – the benefits they offer. Our team has a wealth of experience shooting
-quality live-action and still footage. We also understand how to optimize load times and
-meta information to help it be found online.</p>
-              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/graphic-design.jpeg" alt="">
-              <h5>Creation of Best Design</h5>
-              <p class="mb-4 mb-md-5">Creating beautiful design is about more than inspiration or a great idea, it’s about
-understanding the fundamentals of the subject. Although it’s possible to spend years
-studying the nuances of design and the many varying takes on how to be successful at
-it, there are a handful of, or two, basic elements that every designer should know before
-beginning any project. Even amateurs in the field who maintain personal blogs or only
-make a hobby of it can utilize the following ten tips to create professional looking pieces,
-and anyone who intends to earn money from the endeavor must know them. Rules
-were made to be broken, of course, but you have to know what they are first.
-The first and most basic element of design is that of the line.
+              <h4 class="fw-bold">Blockchain Development</h4>
+              <p class="mb-4 mb-md-5">As a leading Blockchain app
+development company, we transform
 
-Color is one of the most obvious elements of design, for both the user and the
-designer.
-Shapes, geometric or organic, add interest. Shapes are defined by boundaries,
-such as a line or color, and they are often used to emphasize a portion of the
-page.
-Negative space is one of the most commonly underutilized and misunderstood aspects of designing for the page.</p>
-              
-              
-   
-              
-             
-               
-            
+businesses to make them scalable,
+secure, and cost-effective. We are a
+team of certified Blockchain
+developers.</p>
+              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/blockchain.jpeg" alt="">
+              <h5>Specialized Blockchain services</h5>
+              <p class="mb-4 mb-md-5">Channeling the advantages of Blockchain technology, we take pride in delivering
+exceptional blockchain development services to help you top the Decentralized
+economy. Equipped with a high-quality skillset, you’ll get a team of Blockchain
+developers and designers with the know-how of Smart Contracts to Cryptocurrencies
+across all leading industries.
+</p>            
               <h4 class="fw-bold mb-4">Please contact us via below from for more info</h4>
               <form class="row">
                 <div class="col-md-4 mb-4">

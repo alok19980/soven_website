@@ -23,16 +23,16 @@
             <div class="footer-link">
               <ul class="list-unstyled mb-0">
                 <li><a href="web-development.php">Web Designing & Development</a></li>
-                <li><a href="#">Graphic Design</a></li>
-                <li><a href="#">Android App Development</a></li>
-                <li><a href="#">iOS App Development</a></li>
-                <li><a href="#">Social Media Marketing</a></li>
+                <li><a href="graphic-design.php">Graphic Design</a></li>
+                <li><a href="android-app-development.php">Android App Development</a></li>
+                <li><a href="ios-app-development.php">iOS App Development</a></li>
+                <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
               </ul>
               <ul class="list-unstyled mb-0">
-                <li><a href="#">Search Engine Optimization</a></li>
-                <li><a href="#">Blockchain Development</a></li>
-                <li><a href="#">Artificial Intelligence Services</a></li>
-                <li><a href="#">Robotic Process Automation</a></li>
+                <li><a href="search-engine-optimization.php">Search Engine Optimization</a></li>
+                <li><a href="blockchain-development.php">Blockchain Development</a></li>
+                <li><a href="artificial-intelligence-services.php">Artificial Intelligence Services</a></li>
+                <li><a href="robotic-process-automation.php">Robotic Process Automation</a></li>
               </ul>
             </div>
           </div>
@@ -41,7 +41,6 @@
             <div class="footer-link">
               <ul class="list-unstyled mb-0">
                 <li><a href="about.php">About</a></li>
-                <li><a href="#">Leadership Team</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="portfolio.php">Case Studies</a></li>
                 <li><a href="#">Products</a></li>

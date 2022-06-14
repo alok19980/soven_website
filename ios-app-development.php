@@ -45,7 +45,7 @@
         <div class="row d-flex justify-content-center">
           <div class="col-md-8">
             <div class="header-inner-title text-center position-relative">
-              <h1 class="text-white fw-normal">Graphic Designing</h1>
+              <h1 class="text-white fw-normal">iOS App Development</h1>
               <p class="text-white mb-0">The best way is to develop and follow a plan. Start with your goals in mind and then work backwards to develop the plan.</p>
             </div>
           </div>
@@ -62,35 +62,32 @@
         <div class="row justify-content-center">
           <div class="col-xl-10">
             <div class="service-details">
-              <h4 class="fw-bold">Graphic Design</h4>
-              <p class="mb-4 mb-md-5">Websites, businesses and brands are all much more than just words and products –
-they’re also images and art. Graphic design is an integral part of any business and
-that’s as true for your company’s image and your marketing. Success online is
-multifaceted in the modern age. While sites rich in text can help you be found within
-search results, attracting visitors and converting sales is often influenced by the audio-
-visual impact. Colorful, high-resolution images, engaging videos and illustrative graphics
-can help potential buyers better understand your products and services and help them
-see – literally – the benefits they offer. Our team has a wealth of experience shooting
-quality live-action and still footage. We also understand how to optimize load times and
-meta information to help it be found online.</p>
-              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/graphic-design.jpeg" alt="">
-              <h5>Creation of Best Design</h5>
-              <p class="mb-4 mb-md-5">Creating beautiful design is about more than inspiration or a great idea, it’s about
-understanding the fundamentals of the subject. Although it’s possible to spend years
-studying the nuances of design and the many varying takes on how to be successful at
-it, there are a handful of, or two, basic elements that every designer should know before
-beginning any project. Even amateurs in the field who maintain personal blogs or only
-make a hobby of it can utilize the following ten tips to create professional looking pieces,
-and anyone who intends to earn money from the endeavor must know them. Rules
-were made to be broken, of course, but you have to know what they are first.
-The first and most basic element of design is that of the line.
-
-Color is one of the most obvious elements of design, for both the user and the
-designer.
-Shapes, geometric or organic, add interest. Shapes are defined by boundaries,
-such as a line or color, and they are often used to emphasize a portion of the
-page.
-Negative space is one of the most commonly underutilized and misunderstood aspects of designing for the page.</p>
+              <h4 class="fw-bold">iOS App Development</h4>
+              <p class="mb-4 mb-md-5">Designing elegant, feature-rich, custom iOS applications comes with a lot of complexity
+and our innovative “Apple” lab can handle all of it easily. Our iOS app development
+services turn the vision of an iOS application into reality with easy to use, interactive
+and intuitive interface. Our iOS lab remains updated with the latest Apple updates,
+frameworks, languages such as Swift &amp; Objective-C and the new generations of iPhone
+and iPad.</p>
+              <img class="img-fluid border-radius mb-4 mb-md-5" src="images/feature-info/ios-app-development.jpeg" alt="">
+              <h5>Why Choose Us</h5>
+              <p class="mb-4 mb-md-5">A renowned operating system, Apple’s iOS powers various devices, like the iPad
+Touch, iPhone and iPad, etc. and offers users innovative features &amp; optimum user
+experience. Moreover, the benefits associated with this OS are endless, as it has
+integrated search support, gesture recognition, compatibility with iCloud, cellular
+connectivity with VPN support, etc., all of which makes it the second most popular
+operating system.
+Our user experience design team has the know-how of developing a visually
+pleasing prototype, interfaces and custom POCs for your applications.
+Our iOS experts have the capabilities of managing multi-thread environments,
+building advanced algorithms, and providing architectural and technical
+leadership on developing your core application.
+Our QA team is well equipped with automation and manual testing tools
+including XCode testing framework and follow top-notch best practices that help
+to improve the performance of your application and debug all the possible issues.
+Our iOS maintenance model aims to monitor applications in real-time, reduce
+application downtime, increase availability and reduce overall time spent on
+keeping the apps up and running..</p>
               
               
    
