@@ -12,7 +12,7 @@
                 </div>
                 <div class="d-inline-block py-1">
                   <ul class="list-unstyled">
-                    <li><a href="#">Careers</a></li>
+                    <li><a href="careers.php">Careers</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">FAQ</a></li>
                   </ul>
