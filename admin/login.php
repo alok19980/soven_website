@@ -1,10 +1,13 @@
+<?php 
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from seantheme.com/asp-studio/page_login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jun 2022 02:33:59 GMT -->
 <head>
 <meta charset="utf-8" />
-<title>AspStudio | Login</title>
+<title>Soven Developer | Dashboard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="" />
 <meta name="author" content="" />
@@ -20,31 +23,27 @@
 <div class="login">
 
 <div class="login-content">
-<form action="https://seantheme.com/asp-studio/index.html" method="POST" name="login_form">
-<h1 class="text-center">Sign In</h1>
+<img src="../images/logo.png" alt="Soven Developer Logo" style="width:100%;">
+<hr/>
+<form action="actions/login_action.php" method="POST" name="login_form">
+<h3 class="text-center">Sign In</h3>
 <div class="text-muted text-center mb-4">
 For your protection, please verify your identity.
 </div>
 <div class="mb-3">
 <label class="form-label">Email Address</label>
-<input type="text" class="form-control form-control-lg fs-15px" value="" placeholder="username@address.com" />
+<input type="text" name="email" class="form-control form-control-lg fs-15px" value="" placeholder="username@address.com" required/>
 </div>
 <div class="mb-3">
 <div class="d-flex">
 <label class="form-label">Password</label>
 <a href="#" class="ms-auto text-muted">Forgot password?</a>
 </div>
-<input type="password" class="form-control form-control-lg fs-15px" value="" placeholder="Enter your password" />
+<input type="password" name="password" class="form-control form-control-lg fs-15px" value="" placeholder="Enter your password" required/>
 </div>
-<div class="mb-3">
-<div class="form-check">
-<input class="form-check-input" type="checkbox" value="" id="customCheck1" />
-<label class="form-check-label fw-500" for="customCheck1">Remember me</label>
-</div>
-</div>
-<button type="submit" class="btn btn-primary btn-lg d-block w-100 fw-500 mb-3">Sign In</button>
+<button type="submit" class="btn btn-primary btn-lg d-block w-100 fw-500 mb-3" name="login">Sign In</button>
 <div class="text-center text-muted">
-Don't have an account yet? <a href="page_register.html">Sign up</a>.
+Don't have an account yet? <a href="signup.php">Sign up</a>.
 </div>
 </form>
 </div>
@@ -110,6 +109,4 @@ Adjust the appearance to reduce glare and give your eyes a break.
 	</script>
 <script src="https://seantheme.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f7603a9eb6d4564dcfff926d-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"71af9d1bbc388fbe","version":"2022.6.0","r":1,"token":"4db8c6ef997743fda032d4f73cfeff63","si":100}' crossorigin="anonymous"></script>
 </body>
-
-<!-- Mirrored from seantheme.com/asp-studio/page_login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 14 Jun 2022 02:33:59 GMT -->
 </html>
