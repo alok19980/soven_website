@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Mirrored from themes.potenzaglobalsolutions.com/html/hi-soft/case-study-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 08:58:24 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="HTML5 Template" />
@@ -28,10 +26,9 @@
 
     <!-- Template Style -->
     <link rel="stylesheet" href="css/style.css" />
-
   </head>
   <body>
-    
+
     <!--=================================
     header -->
     <header class="header default">
@@ -81,13 +78,13 @@
                   <li><a class="dropdown-item" href="index-10.html">Home Paris<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </li>
-              <li class="dropdown nav-item">
+              <li class="dropdown nav-item active">
                 <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Pages</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="contact.html">Contact<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="pricing.html">Pricing<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                    <li><a class="dropdown-item" href="blog.html">Blog 01<i class="fas fa-arrow-right"></i></a></li>
+                    <li class="active"><a class="dropdown-item" href="blog.html">Blog 01<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="blog-02.html">Blog 02<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="blog-detail.html">Blog Detail<i class="fas fa-arrow-right"></i></a></li>
                     <li><a class="dropdown-item" href="elements.html">Elements<i class="fas fa-arrow-right"></i></a></li>
@@ -98,7 +95,7 @@
                     <li><a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions<i class="fas fa-arrow-right"></i></a></li>
                   </ul>
               </li>
-              <li class="dropdown nav-item">
+               <li class="dropdown nav-item">
                 <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Company</a>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="about-us.html">About Us<i class="fas fa-arrow-right"></i></a></li>
@@ -120,11 +117,11 @@
                   <li><a class="dropdown-item" href="industry-04.html">Industries 04<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </li>
-              <li class="dropdown nav-item active">
+              <li class="dropdown nav-item">
                 <a href="properties.html" class="nav-link" data-bs-toggle="dropdown">Case Studies</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="case-study.html">Case Studies<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="active"><a class="dropdown-item" href="case-study-single.html">Case Study Single<i class="fas fa-arrow-right"></i></a></li>
+                  <li><a class="dropdown-item" href="case-study-single.html">Case Study Single<i class="fas fa-arrow-right"></i></a></li>
                   <li><a class="dropdown-item" href="case-study-single-02.html">Case Study Single 02<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </li>
@@ -201,13 +198,13 @@
 
     <!--=================================
     inner banner -->
-    <section class="header-inner bg-overlay-black-50" style="background-image: url('images/header-inner/07.jpg');">
+    <section class="header-inner bg-overlay-black-50" style="background-image: url('images/header-inner/02.jpg');">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-8">
             <div class="header-inner-title text-center position-relative">
-              <h1 class="text-white fw-normal">Case Study Name</h1>
-              <p class="text-white mb-0">Trying to go through life without clarity is similar to sailing a rudder-less ship – no good thing can or will happen!</p>
+              <h1 class="text-white fw-normal">Blog</h1>
+              <p class="text-white mb-0">The sad thing is the majority of people have no clue about what they truly want. They have no clarity. When asked the question</p>
             </div>
           </div>
         </div>
@@ -217,132 +214,152 @@
     inner banner -->
 
     <!--=================================
-    Case Study Detail -->
+    Blog -->
     <section class="space-ptb">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-sm-12">
-            <h2 class="mb-3">Overview</h2>
-          </div>
-          <div class="col-xl-5 col-md-6">
-            <h6 class="text-dark">Commitment is something that comes from understanding that everything has its price and then having the willingness to pay that price. This is important because nobody.</h6>
-          </div>
-          <div class="col-xl-7 col-md-6">
-            <p>Franklin’s extraordinary success in life and politics can be attributed to his perseverance to overcome his personal liabilities, and his desire to constantly become better. Next time you really want to achieve something, take time to focus on your own personal journal. What is your temptation that is standing in your way to greatness? What can you do to form the habit of becoming a success?</p>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-sm-12">
-            <img class="img-fluid border-radius" src="images/bg/01.jpg" alt="">
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-sm-12">
-            <ul class="clients-detail list-inline d-md-flex">
-              <li>
-                <strong class="text-dark d-block mb-2">Client</strong>
-                <span>Developer</span>
-              </li>
-              <li>
-                <strong class="text-dark d-block mb-2">Categories</strong>
-                <span>It Company</span>
-              </li>
-              <li>
-                <strong class="text-dark d-block mb-2">Budgets</strong>
-                <span>$250.000</span>
-              </li>
-              <li>
-                <strong class="text-dark d-block mb-2">Location</strong>
-                <span>New York, USA</span>
-              </li>
-              <li>
-                <strong class="text-dark d-block mb-2">Project Url</strong>
-                <a href="#">http://www.exampleproject.com</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-4 mt-md-5">
-          <div class="col-lg-10">
-            <h2 class="text-dark">Challenge</h2>
-            <div class="mb-3 d-flex">
-              <i class="fas fa-arrow-right pe-3 pt-1 text-dark"></i>
-              <div>
-                <h6 class="text-dark">The majority of people carry with them, an entire series of self-limiting beliefs that will absolutely stop.</h6>
-                <p>You will begin to realise why this exercise is called the Dickens Pattern (with reference to the ghost showing Scrooge some different futures) as you notice that the idea of this exercise is to hypnotize yourself to be aware of two very real possibilities for your future. just have a think about something that you know you need to be doing, but are not. Then with that thing in mind, follow these simple steps.</p>
-                <p>We all carry a lot of baggage, thanks to our upbringing. The majority of people carry with them, an entire series of self-limiting beliefs that will absolutely stop, and hold them back from, success. Things like I’m not good enough, I’m not smart enough.</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/01.jpg" alt="">
               </div>
-            </div>
-            <div class="mb-3 d-flex">
-              <i class="fas fa-arrow-right pe-3 pt-1 text-dark"></i>
-              <div>
-                <h6 class="text-dark">Open your eyes and begin to plan your future and take action to achieve that outcome. Your unconscious mind now knows what it is working towards.</h6>
-                <p>Imagine reaching deep inside you for all the strength and wisdom that you need to make this decision today. As you do so, imagine that when you choose to make that decision that deep inside your mind you are switching off the alternative path, you are switching off the opportunity to drift back to that place. Then step out and take your future path. Absorb yourself in the sensations.</p>
-              </div>
-            </div>
-            <div class="mb-3 d-flex">
-              <i class="fas fa-arrow-right pe-3 pt-1 text-dark"></i>
-              <div>
-                <h6 class="text-dark">Have some fun and hypnotize yourself to be your very own “Ghost of Christmas future” and see what the future.</h6>
-                <p class="mb-0">The first thing to remember about success is that it is a process – nothing more, nothing less. There is really no magic to it and it’s not reserved only for a select few people. As such, success really has nothing to do with luck, coincidence or fate.</p>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Marketing</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">Feb 4, 2020</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">From a small startup to a leading global agency in 10 Years.</a>
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-12 mt-4">
-            <img class="w-100 border-radius" src="images/bg/02.jpg" alt="">
-          </div>
-        </div>
-        <div class="row justify-content-center mt-4 mt-md-5">
-          <div class="col-lg-10">
-            <h2 class="text-dark">Solution</h2>
-            <h6 class="text-dark">The best way is to develop and follow a plan. Start with your goals in mind and then work backwards to develop the plan. What steps are required to get you to the goals? Make the plan as detailed as possible.</h6>
-            <p>Imagine reaching deep inside you for all the strength and wisdom that you need to make this decision today. As you do so, imagine that when you choose to make that decision that deep inside your mind you are switching off the alternative path, </p>
-            <p class="mb-0">Step out on to the path to your left. Where there is no change. Briefly imagine that you are not going to live and discover your unfulfilled dreams. Instead, you continue doing what you have in the past. What will life be like in 10 years time? Step out, every step you take you get older, days pass, weeks pass. Notice how your body is, how you feel about staying on this path.</p>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-4 mt-md-5">
-          <div class="col-lg-10">
-            <h2 class="text-dark">Results</h2>
-            <h6 class="text-dark mb-0">There are basically six key areas to higher achievement. Some people will tell you there are four while others may tell you there are eight. One thing for certain though, is that irrespective of the number.</h6>
-          </div>
-        </div>
-        <div class="row justify-content-center mt-4 mt-md-5">
-          <div class="col-lg-10">
-            <div class="row">
-              <div class="col-md-4">
-                <h2 class="text-primary fw-bold">81%</h2>
-                <p class="text-light fw-normal mt-2 mb-0">A totally new way to grow your business</p>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/02.jpg" alt="">
               </div>
-              <div class="col-md-4">
-                <h2 class="text-primary fw-bold">Improved</h2>
-                <p class="text-light fw-normal mt-2 mb-0">We are adding extra value for your business</p>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Finance</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">Feb 15, 2020</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">How google’s BERT algorithm affects your website traffic</a>
+                  </h5>
+                </div>
               </div>
-              <div class="col-md-4">
-                <h2 class="text-primary fw-bold">Increased</h2>
-                <p class="text-light fw-normal mt-2 mb-0">Award-winning website design & creative digital agency services</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/03.jpg" alt="">
+              </div>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Operations</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">Sep 19, 2020</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">Five reasons why you must create a website for your company</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/04.jpg" alt="">
+              </div>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Strategy</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">Oct 19, 2014</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">Corporations that Prove Data is Key to Victorious Digital Transformation</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/05.jpg" alt="">
+              </div>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Jobs</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">March 27, 2014</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">Google, Facebook or Instagram Which one is best for my business?</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="blog-post">
+              <div class="blog-post-image">
+                <img class="img-fluid" src="images/blog/06.jpg" alt="">
+              </div>
+              <div class="blog-post-content">
+                <div class="blog-post-info">
+                  <div class="blog-post-author">
+                    <a href="#" class="btn btn-light-round btn-round text-primary">Technology</a>
+                  </div>
+                  <div class="blog-post-date">
+                    <a href="#">Feb 19, 2014</a>
+                  </div>
+                </div>
+                <div class="blog-post-details">
+                  <h5 class="blog-post-title">
+                    <a href="blog-detail.html">Five initial steps you must do to increase your business incomes</a>
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row  justify-content-center my-4 my-md-5">
-          <div class="col-sm-12">
-            <hr class="light-bg m-0">
-          </div>
-        </div>
-        <div class="row  justify-content-center">
-          <div class="col-sm-6 mb-3 mb-md-0">
-            <a href="#" class="btn btn-light-round right-round btn-round w-space"><i class="fas fa-arrow-left pe-3"></i>Previous Case Study</a>
-          </div>
-          <div class="col-sm-6 text-md-end">
-            <a href="#" class="btn btn-primary-round btn-round w-space">Next Case Study<i class="fas fa-arrow-right ps-3"></i></a>
+        <div class="row mt-4 mt-md-5">
+          <div class="col-12 text-center">
+            <a href="#" class="btn btn-primary-round btn-round">Load More<i class="fas fa-arrow-right ps-3"></i></a>
           </div>
         </div>
       </div>
     </section>
     <!--=================================
-    Case Study Detail -->
+    Blog -->
 
     <!--=================================
     Action Box -->
@@ -484,10 +501,12 @@
     <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/horizontal-timeline/horizontal-timeline.js"></script>
     <script src="js/shuffle/shuffle.min.js"></script>
+    <script src="js/shuffle/shuffle.min.js"></script>
 
     <!-- Template Scripts (Do not remove)-->
     <script src="js/custom.js"></script>
+
   </body>
 
-<!-- Mirrored from themes.potenzaglobalsolutions.com/html/hi-soft/case-study-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 08:58:25 GMT -->
+<!-- Mirrored from themes.potenzaglobalsolutions.com/html/hi-soft/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 10 Jun 2022 08:56:45 GMT -->
 </html>
