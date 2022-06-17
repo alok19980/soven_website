@@ -3,6 +3,19 @@ session_start();
 if(!isset($_SESSION['user_email'])) {
 	header("Location:login.php");
 }
+include("db/config.php");
+
+$name = "";
+
+$query_user_details = "SELECT * FROM users WHERE email='" . $_SESSION['user_email'] . "'";
+$result = mysqli_query($con, $query_user_details);
+if(mysqli_num_rows($result) > 0) {
+	while($row = mysqli_fetch_assoc($result)) {
+		$name = $row['name'];
+	  }
+} else {
+	$name = "Database Error";
+}
 
 ?>
 <!DOCTYPE html>
@@ -59,15 +72,12 @@ if(!isset($_SESSION['user_email'])) {
 <div class="menu-img online">
 <img src="assets/img/user/user.jpg" alt="" class="ms-100 mh-100 rounded-circle" />
 </div>
-<div class="menu-text"><span class="__cf_email__" data-cfemail="3f4c5a5e514b575a525a7f58525e5653115c5052">[email&#160;protected]</span></div>
+<div class="menu-text"><span class="__cf_email__" ><?php echo $name; ?></span></div>
 </a>
 <div class="dropdown-menu dropdown-menu-right me-lg-3">
 <a class="dropdown-item d-flex align-items-center" href="#">Edit Profile <i class="fa fa-user-circle fa-fw ms-auto text-dark text-opacity-50"></i></a>
-<a class="dropdown-item d-flex align-items-center" href="#">Inbox <i class="fa fa-envelope fa-fw ms-auto text-dark text-opacity-50"></i></a>
-<a class="dropdown-item d-flex align-items-center" href="#">Calendar <i class="fa fa-calendar-alt fa-fw ms-auto text-dark text-opacity-50"></i></a>
-<a class="dropdown-item d-flex align-items-center" href="#">Setting <i class="fa fa-wrench fa-fw ms-auto text-dark text-opacity-50"></i></a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item d-flex align-items-center" href="#">Log Out <i class="fa fa-toggle-off fa-fw ms-auto text-dark text-opacity-50"></i></a>
+<a class="dropdown-item d-flex align-items-center" href="actions/logout_action.php">Log Out <i class="fa fa-toggle-off fa-fw ms-auto text-dark text-opacity-50"></i></a>
 </div>
 </div>
 </div>
@@ -79,7 +89,7 @@ if(!isset($_SESSION['user_email'])) {
 
 <div id="content" class="app-content">
 <h1 class="page-header mb-3">
-Hi, Sean. <small>here's what's happening with your store today.</small>
+Hi, <?php echo $name; ?>. <small>here's what's happening with your business today.</small>
 </h1>
 
 <div class="row">

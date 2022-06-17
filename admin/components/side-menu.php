@@ -15,35 +15,9 @@
 <span class="menu-text">Analytics</span>
 </a>
 </div>
-<div class="menu-item has-sub">
-<a href="#" class="menu-link">
-<span class="menu-icon">
-<i class="fa fa-envelope"></i>
-<span class="menu-icon-label">6</span>
-</span>
-<span class="menu-text">Email</span>
-<span class="menu-caret"><b class="caret"></b></span>
-</a>
-<div class="menu-submenu">
-<div class="menu-item">
-<a href="email_inbox.html" class="menu-link">
-<span class="menu-text">Inbox</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="email_compose.html" class="menu-link">
-<span class="menu-text">Compose</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="email_detail.html" class="menu-link">
-<span class="menu-text">Detail</span>
-</a>
-</div>
-</div>
-</div>
+
 <div class="menu-divider"></div>
-<div class="menu-header">Components</div>
+<div class="menu-header">Website & Mobile App Settings</div>
 <div class="menu-item">
 <a href="widgets.html" class="menu-link">
 <span class="menu-icon"><i class="fa fa-qrcode"></i></span>
@@ -201,60 +175,7 @@
 </div>
 </div>
 </div>
-<div class="menu-item has-sub">
-<a href="#" class="menu-link">
-<span class="menu-icon"><i class="fa fa-globe"></i></span>
-<span class="menu-text">Pages</span>
-<span class="menu-caret"><b class="caret"></b></span>
-</a>
-<div class="menu-submenu">
-<div class="menu-item">
-<a href="page_scrum_board.html" class="menu-link">
-<span class="menu-text">Scrum Board</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_products.html" class="menu-link">
-<span class="menu-text">Products</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_orders.html" class="menu-link">
-<span class="menu-text">Orders</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_gallery.html" class="menu-link">
-<span class="menu-text">Gallery</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_search_results.html" class="menu-link">
-<span class="menu-text">Search Results</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_coming_soon.html" class="menu-link">
-<span class="menu-text">Coming Soon Page</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_404_error.html" class="menu-link">
-<span class="menu-text">404 Error Page</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_login.html" class="menu-link">
-<span class="menu-text">Login</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="page_register.html" class="menu-link">
-<span class="menu-text">Register</span>
-</a>
-</div>
-</div>
-</div>
+
 <div class="menu-divider"></div>
 <div class="menu-header">Users</div>
 <div class="menu-item">
