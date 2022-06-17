@@ -1,6 +1,14 @@
 <?php 
 session_start();
+if(isset($_SESSION['user_email'])) {
+	header("Location:index.php");
+}
 
+$error = "";
+
+if(isset($_GET['error'])) {
+	$error = $_GET['error'];
+}
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +31,7 @@ session_start();
 <div class="login">
 
 <div class="login-content">
+<p style="text-align:center;color:red;"><b><?php echo $error; ?></b></p>
 <img src="../images/logo.png" alt="Soven Developer Logo" style="width:100%;">
 <hr/>
 <form action="actions/login_action.php" method="POST" name="login_form">
