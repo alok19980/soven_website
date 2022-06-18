@@ -51,7 +51,7 @@
 </a>
 </div>
 <div class="menu-item">
-<a href="#" class="menu-link">
+<a href="view_blog_categories.php" class="menu-link">
 <span class="menu-text">Categories List</span>
 </a>
 </div>
