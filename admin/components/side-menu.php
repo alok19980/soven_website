@@ -18,56 +18,8 @@
 
 <div class="menu-divider"></div>
 <div class="menu-header">Business Settings</div>
-<div class="menu-item">
-<a href="widgets.html" class="menu-link">
-<span class="menu-icon"><i class="fa fa-qrcode"></i></span>
-<span class="menu-text">Widgets</span>
-</a>
-</div>
-<div class="menu-item has-sub">
-<a href="#" class="menu-link">
-<span class="menu-icon"><i class="fa fa-heart"></i></span>
-<span class="menu-text">UI Kits</span>
-<span class="menu-caret"><b class="caret"></b></span>
-</a>
-<div class="menu-submenu">
-<div class="menu-item">
-<a href="ui_bootstrap.html" class="menu-link">
-<span class="menu-text">Bootstrap</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_buttons.html" class="menu-link">
-<span class="menu-text">Buttons</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_card.html" class="menu-link">
-<span class="menu-text">Card</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_icons.html" class="menu-link">
-<span class="menu-text">Icons</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_modal_notification.html" class="menu-link">
-<span class="menu-text">Modal & Notification</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_typography.html" class="menu-link">
-<span class="menu-text">Typography</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_tabs_accordions.html" class="menu-link">
-<span class="menu-text">Tabs & Accordions</span>
-</a>
-</div>
-</div>
-</div>
+
+
 
 <div class="menu-divider"></div>
 <div class="menu-header">Website Segment</div>
@@ -88,47 +40,30 @@
 </div>
 <div class="menu-item has-sub">
 <a href="#" class="menu-link">
-<span class="menu-icon"><i class="fa fa-heart"></i></span>
-<span class="menu-text">UI Kits</span>
+<span class="menu-icon"><i class="fa fa-duotone fa-chart-pie"></i></span>
+<span class="menu-text">Categories</span>
 <span class="menu-caret"><b class="caret"></b></span>
 </a>
 <div class="menu-submenu">
 <div class="menu-item">
-<a href="ui_bootstrap.html" class="menu-link">
-<span class="menu-text">Bootstrap</span>
+<a href="add_new_blog_category.php" class="menu-link">
+<span class="menu-text">Add New Category</span>
 </a>
 </div>
 <div class="menu-item">
-<a href="ui_buttons.html" class="menu-link">
-<span class="menu-text">Buttons</span>
+<a href="#" class="menu-link">
+<span class="menu-text">Categories List</span>
 </a>
 </div>
-<div class="menu-item">
-<a href="ui_card.html" class="menu-link">
-<span class="menu-text">Card</span>
+
+</div>
+</div>
+
+<div class="menu-item has-sub">
+<a href="#" class="menu-link">
+<span class="menu-icon"><i class="fa fa-duotone fa-comments"></i></span>
+<span class="menu-text">Comments</span>
 </a>
-</div>
-<div class="menu-item">
-<a href="ui_icons.html" class="menu-link">
-<span class="menu-text">Icons</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_modal_notification.html" class="menu-link">
-<span class="menu-text">Modal & Notification</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_typography.html" class="menu-link">
-<span class="menu-text">Typography</span>
-</a>
-</div>
-<div class="menu-item">
-<a href="ui_tabs_accordions.html" class="menu-link">
-<span class="menu-text">Tabs & Accordions</span>
-</a>
-</div>
-</div>
 </div>
 
 <div class="menu-divider"></div>
