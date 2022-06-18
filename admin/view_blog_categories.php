@@ -1,10 +1,21 @@
 <?php 
 session_start();
 
+$error = "";
+
 if(!isset($_SESSION['user_email'])) {
 	header("Location:index.php");
 }
 
+if(isset($_GET['error'])) {
+    if($_GET['error'] == "del") {
+        $error = "Category Deleted Successfully.";
+    } else if ($_GET['error'] == "ndel") {
+        $error = "Error Deleting Category";
+    } else {
+        $error = "";
+    }
+}
 
 include("db/config.php");
 
@@ -51,7 +62,7 @@ include("db/config.php");
 Article Categories
 </h1>
 <hr class="mb-4" />
-
+<p> <?php echo $error; ?></p>
 <div id="datatable" class="mb-5">
 <div class="card">
 <div class="card-body">
@@ -67,6 +78,8 @@ if(mysqli_num_rows($result) > 0) { ?>
 <tr>
 <th>#</th>
 <th>Category Name</th>
+<th>Parent Category</th>
+<th>Actions</th>
 </tr>
 </thead>
 <tbody>
@@ -74,6 +87,25 @@ if(mysqli_num_rows($result) > 0) { ?>
 		<tr>
         <td><?php echo $row['id']; ?></td>
         <td><?php echo $row['name']; ?></td>
+        <td><?php 
+        if($row['parentId'] == 0) {
+            echo "None";
+        } else {
+            $query_parent_category = "SELECT * FROM blog_categories WHERE id='" . $row['parentId'] . "'";
+            $result_parent_category = mysqli_query($con, $query_parent_category);
+            if(mysqli_num_rows($result) > 0) {
+                while($row_parent_category = mysqli_fetch_assoc($result_parent_category)) {
+                    echo $row_parent_category['name'];
+                }
+            } else {
+                echo "None";
+            }
+        }
+        ?></td>
+        <td>
+        <a type="button" class="btn btn-info" href="#"><i class="fa fa-edit"></i></a>
+        <a type="button" class="btn btn-danger" href="delete_blog_category.php?id=<?php echo $row['id']; ?>"><i class="fa fa-solid fa-trash-can"></i></a>
+        </td>
         </tr>
 	<?php   } ?>
 </tbody>
