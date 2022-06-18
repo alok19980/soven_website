@@ -1,7 +1,24 @@
 <?php 
 session_start();
 
+$error = "";
 
+if(!isset($_SESSION['user_email'])) {
+    header("Location:login.php");
+}
+
+include("db/config.php");
+
+if(isset($_POST['add_category'])) {
+    $query_add_category = "INSERT INTO blog_categories ( `name`, `parentId` ) VALUES ('" . $_POST['category'] . "', '". $_POST['parentCategory'] ."')";
+    if (mysqli_query($con, $query_add_category)) {
+        $error = "Category Added Successfully";
+      } else {
+        $error = "Error: " . $query_add_category . "<br>" . mysqli_error($con);
+        echo "Error: " . $query_add_category . "<br>" . mysqli_error($con);
+        echo "<script type='Javascript'>alert('Error: ' . $query_add_category . '<br>' . mysqli_error($con););</script>";
+      }
+}
 
 ?>
 
@@ -34,8 +51,10 @@ session_start();
 Add New Blog Category
 </h1>
 <hr/>
-<form>
+<p><?php echo $error; ?></p>
+<form method="POST" action="">
     <!-- text input -->
+
 <div class="form-group mb-3">
   <label class="form-label" for="exampleFormControlInput1">Category Name</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Please input category name here" name="category" required>
@@ -44,10 +63,16 @@ Add New Blog Category
 <div class="form-group mb-3">
     <label class="form-label" for="exampleFormControlInput2">Select Parent Category</label>
     <select class="form-control" name="parentCategory">
-        <option>None</option>
-        <option>Category 2</option>
-        <option>Category 3</option>
-        <option>Category 4</option>
+        <option name="None" value="0">None</option>
+        <?php 
+        $query_blog_categories = "SELECT * FROM blog_categories";
+        $result = mysqli_query($con, $query_blog_categories);
+        if(mysqli_num_rows($result) > 0) {
+            while($row = mysqli_fetch_assoc($result)) { ?>
+                <option name="<?php echo $row['name']; ?>" value="<?php echo $row['id']; ?>"><?php echo $row['name']; ?></option>
+            <?php }
+        }
+        ?>
     </select>
 </div>
 <div class="form-group mb-3">
