@@ -12,9 +12,17 @@ if(isset($_GET['error'])) {
         $error = "Category Deleted Successfully.";
     } else if ($_GET['error'] == "ndel") {
         $error = "Error Deleting Category";
+    } else if ($_GET['error'] == "up"){
+        $error = "Category Updated Successfully.";
+    } else if ($_GET['error'] == "nup") {
+        $error = "Error Updating Category";
     } else {
         $error = "";
     }
+}
+
+if(isset($_POST['update_category'])) {
+    header("Location:update_blog_category.php?id=" . $_POST['old_id'] . "&name=" . $_POST['category'] . "&parentId=" . $_POST['parent'] . "");
 }
 
 include("db/config.php");
@@ -103,7 +111,50 @@ if(mysqli_num_rows($result) > 0) { ?>
         }
         ?></td>
         <td>
-        <a type="button" class="btn btn-info" href="#"><i class="fa fa-edit"></i></a>
+        <a type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalSm"><i class="fa fa-edit"></i></a>
+        <div class="modal fade" id="modalSm">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        <h5 class="modal-title">Update Category</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form method="POST" action="">
+<div class="form-group mb-3">
+  <label class="form-label" for="exampleFormControlInput1">Category Name</label>
+  <input type="hidden" name="old_id" value="<?php echo $row['id']; ?>">
+  <input type="text" class="form-control" id="exampleFormControlInput1" value="<?php echo $row['name']; ?>" name="category" required>
+</div>
+<!-- select -->
+<div class="form-group mb-3">
+    <label class="form-label" for="exampleFormControlInput2">Select Parent Category</label>
+    <select class="form-control" name="parent">
+        <option name="None" value="0">None</option>
+        <?php 
+        $query_blog_categories = "SELECT * FROM blog_categories";
+        $result_blog_categories = mysqli_query($con, $query_blog_categories);
+        if(mysqli_num_rows($result_blog_categories) > 0) {
+            while($row_blog_categories = mysqli_fetch_assoc($result_blog_categories)) { ?>
+                <option name="<?php echo $row_blog_categories['name']; ?>" value="<?php echo $row_blog_categories['id']; ?>"><?php echo $row_blog_categories['name']; ?></option>
+            <?php }
+        }
+        ?>
+    </select>
+</div>
+<div class="form-group mb-3">
+<button type="submit" class="btn btn-primary" name="update_category">Update Category</button>
+</div>
+
+</form>
+                    </div>
+                    <div class="modal-footer"> 
+                    </div>
+  
+                </div>
+            </div>
+        </div>
         <a type="button" class="btn btn-danger" href="delete_blog_category.php?id=<?php echo $row['id']; ?>"><i class="fa fa-solid fa-trash-can"></i></a>
         </td>
         </tr>
