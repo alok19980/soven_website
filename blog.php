@@ -1,3 +1,10 @@
+<?php 
+
+include("admin/db/config.php");
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +13,7 @@
     <meta name="description" content="Hi-soft - IT Solutions and Services Company HTML5 Template" />
     <meta name="author" content="potenzaglobalsolutions.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Hi-soft - IT Solutions and Services Company HTML5 Template</title>
+    <title>Soven Developer - IT Solutions and Services Company</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" />
@@ -57,138 +64,61 @@
     <section class="space-ptb">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="blog-post">
+          
+
+          <?php
+          $query_blogs = "SELECT * FROM articles";
+          $result = mysqli_query($con, $query_blogs);
+          if(mysqli_num_rows($result) > 0) { 
+            while($row = mysqli_fetch_assoc($result)) {
+              $article_category = "";
+              $query_article_category = "SELECT * FROM blog_categories WHERE id='" . $row['category'] . "'";
+              $result_article_category = mysqli_query($con, $query_article_category);
+              if(mysqli_num_rows($result_article_category) > 0 ) {
+                while($row_article_category = mysqli_fetch_assoc($result_article_category)) { 
+                  $article_category = $row_article_category['name'];
+                }
+              } else {
+                $article_category = "Uncategorized";
+              }
+
+              ?>
+              <div class="col-lg-4 col-md-6 mb-4">
+              <div class="blog-post">
               <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/01.jpg" alt="">
+                <img class="img-fluid" src="uploads/images/<?php echo $row['thumbnail']; ?>" alt="">
               </div>
               <div class="blog-post-content">
                 <div class="blog-post-info">
                   <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Marketing</a>
+                    <a href="#" class="btn btn-light-round btn-round text-primary"><?php echo $article_category; ?></a>
                   </div>
                   <div class="blog-post-date">
-                    <a href="#">Feb 4, 2020</a>
+                    <a href="#"><?php echo $row['published_date']; ?></a>
                   </div>
                 </div>
                 <div class="blog-post-details">
                   <h5 class="blog-post-title">
-                    <a href="blog-detail.php">From a small startup to a leading global agency in 10 Years.</a>
+                    <a href="blog-detail.php?id=<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a>
                   </h5>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="blog-post">
-              <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/02.jpg" alt="">
-              </div>
-              <div class="blog-post-content">
-                <div class="blog-post-info">
-                  <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Finance</a>
-                  </div>
-                  <div class="blog-post-date">
-                    <a href="#">Feb 15, 2020</a>
-                  </div>
-                </div>
-                <div class="blog-post-details">
-                  <h5 class="blog-post-title">
-                    <a href="blog-detail.html">How google’s BERT algorithm affects your website traffic</a>
-                  </h5>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="blog-post">
-              <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/03.jpg" alt="">
-              </div>
-              <div class="blog-post-content">
-                <div class="blog-post-info">
-                  <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Operations</a>
-                  </div>
-                  <div class="blog-post-date">
-                    <a href="#">Sep 19, 2020</a>
-                  </div>
-                </div>
-                <div class="blog-post-details">
-                  <h5 class="blog-post-title">
-                    <a href="blog-detail.html">Five reasons why you must create a website for your company</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <div class="blog-post">
-              <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/04.jpg" alt="">
-              </div>
-              <div class="blog-post-content">
-                <div class="blog-post-info">
-                  <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Strategy</a>
-                  </div>
-                  <div class="blog-post-date">
-                    <a href="#">Oct 19, 2014</a>
-                  </div>
-                </div>
-                <div class="blog-post-details">
-                  <h5 class="blog-post-title">
-                    <a href="blog-detail.html">Corporations that Prove Data is Key to Victorious Digital Transformation</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <div class="blog-post">
-              <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/05.jpg" alt="">
-              </div>
-              <div class="blog-post-content">
-                <div class="blog-post-info">
-                  <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Jobs</a>
-                  </div>
-                  <div class="blog-post-date">
-                    <a href="#">March 27, 2014</a>
-                  </div>
-                </div>
-                <div class="blog-post-details">
-                  <h5 class="blog-post-title">
-                    <a href="blog-detail.html">Google, Facebook or Instagram Which one is best for my business?</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="blog-post">
-              <div class="blog-post-image">
-                <img class="img-fluid" src="images/blog/06.jpg" alt="">
-              </div>
-              <div class="blog-post-content">
-                <div class="blog-post-info">
-                  <div class="blog-post-author">
-                    <a href="#" class="btn btn-light-round btn-round text-primary">Technology</a>
-                  </div>
-                  <div class="blog-post-date">
-                    <a href="#">Feb 19, 2014</a>
-                  </div>
-                </div>
-                <div class="blog-post-details">
-                  <h5 class="blog-post-title">
-                    <a href="blog-detail.html">Five initial steps you must do to increase your business incomes</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
+    
+
+           <?php  }
+            
+             }  else {
+
+          echo "No Articles Found";
+         }
+         
+          ?>
+            
+          
+          
+          
         </div>
         <div class="row mt-4 mt-md-5">
           <div class="col-12 text-center">
