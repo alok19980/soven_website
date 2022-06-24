@@ -13,7 +13,7 @@
                 <div class="d-inline-block py-1">
                   <ul class="list-unstyled">
                     <li><a href="careers.php">Careers</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="blog.php">Blog</a></li>
                     <li><a href="#">FAQ</a></li>
                   </ul>
                 </div>
