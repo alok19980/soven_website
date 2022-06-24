@@ -73,7 +73,7 @@
                 </div>
                 <div class="blog-post-details">
                   <h5 class="blog-post-title">
-                    <a href="blog-detail.html">From a small startup to a leading global agency in 10 Years.</a>
+                    <a href="blog-detail.php">From a small startup to a leading global agency in 10 Years.</a>
                   </h5>
                 </div>
               </div>
